@@ -985,5 +985,30 @@ body {
 
 }
 
+
+
+
+
+/* Make the about image responsive */
+#img {
+  width: 100%;
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+/* Optional: reduce height on mobile for better fit */
+@media (max-width: 768px) {
+  #img {
+    /* let height auto adjust, no fixed size */
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+}
+
+
  
+
 
