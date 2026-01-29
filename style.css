@@ -961,4 +961,29 @@ body {
         grid-template-columns: 1fr;
       }
     }
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container,
+  .wrapper,
+  .main,
+  .content {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
  
+
